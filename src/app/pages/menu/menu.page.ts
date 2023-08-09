@@ -24,7 +24,7 @@ export class MenuPage implements OnInit {
       path: '/about'
     }
   ];
-  title = '';
+  title = 'Home';
   constructor(private menuCtrl: MenuController, private plt: Platform) { }
 
   ngOnInit() {
